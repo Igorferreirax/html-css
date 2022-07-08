@@ -1,0 +1,38 @@
+body{ font-family:Arial }
+.clear{ overflow:hidden;width:100% }
+.center{
+    text-align:left;
+    margin:0px auto;
+    position:relative;
+    width:980px;
+}
+.fundoTopo{ background-color:#FF0000 }
+.topo{ 
+    background-color:#003399;
+    height:143px;
+    width:980px;
+    color:#FFFFFF;
+}
+#logo{
+    width:180px;
+    height:141px;
+    border:#00CCCC 1px dotted;
+    float:left
+}
+.fundoRodape{ background-color:#3366FF }
+.rodape{ 
+    background-color:#003399;
+    height:43px;
+    width:980px;
+    color:#FFFFFF;
+    text-align:center
+}
+.fundoConteudo{ background-color:transparent }
+.conteudo{ 
+    background-color:#003399;
+    height:500px;
+    width:980px;
+    color:#FFFFFF;
+    text-align:center
+}
+#texto{text-align:right}

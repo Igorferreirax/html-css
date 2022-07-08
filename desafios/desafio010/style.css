@@ -1,0 +1,270 @@
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetiva, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: #c5ebd6;
+}
+
+.center {
+    padding: 20px;
+    margin: 0;
+    min-width: 400px;
+    height: 200px;
+    background-image: linear-gradient(#83e1ad, #3ddc84, #2fa866, #063d1e);
+    margin: 0 auto;
+    display: block;
+
+}
+
+.center h2 {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 45px;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px  black;
+    margin-top: 5px;
+    min-width: 400px;
+}
+
+.center p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    min-width: 400px;
+    text-shadow: 2px 1px  black;
+    
+
+}
+
+.menu {
+    min-width: 400px;
+    
+}
+
+.menu a {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-right: 10px;
+    
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 2px;
+    padding: 8px 25px;
+    color: green;
+    background-attachment: fixed;
+
+}
+
+
+
+
+main {
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    
+    margin: 0 auto; 
+    bottom: 8rem;
+}
+
+.conteudo {
+    padding: 20px;
+    
+}
+
+.conteudo > h2 {
+    color: var(--cor4);
+    font-family: 'Android';
+}
+
+.conteudo > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-indent: 30px;
+    text-align: justify;
+
+}
+
+p > a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2.basico2 {
+    background-image: linear-gradient(to right, var(--cor1), rgba(120, 190, 120, 0.322));
+    font-size: 20px;
+    
+}
+
+p#texto-main a {
+    font-weight: bold;
+    color: green;
+    background-color: var(--cor1);
+    padding: 2px;
+}
+
+.img-android {
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+
+    
+.foto-rosto {
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    }
+
+    .img-bug {
+        margin: 0 auto;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .video {
+        margin: 0 auto;
+        display: block;
+        min-width: 400px;
+        max-width: 800px;
+        width: 80%
+
+    }
+
+    #video-bk {
+        background-color: rgb(7, 43, 7);
+        min-width: 400px;
+        max-width: 800px;
+        width: 100%;
+        height: auto;
+        height: 350px;
+        padding-top: 25px;
+ }
+
+    h3 {
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+       
+    }
+
+    h3.topo-questionario {
+       background-color: var(--cor2);
+        border-radius: 5px 5px 0px 0px;
+        padding: 8px;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        box-shadow: 2px 2px 15px 0px black;
+    }
+
+    .corpo-questionario p {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 30px;
+        font-weight: 200;
+        text-align: justify;
+        
+    }
+
+    .corpo-questionario {
+        background-color: var(--cor0);
+        margin: auto;
+        width: 90%;
+        padding: 8px 8px 55px;
+        box-shadow: 2px 2px 15px 0px black;
+        
+}
+
+
+ul{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+   ul.primeira-lista {
+       color:black;
+       font-weight: bold;
+       left: 5rem;
+       list-style: none;
+       
+       
+   }
+
+   ul.segunda-lista {
+       color:rgb(0, 0, 0);
+       font-weight: bold;
+       text-align: right;
+       padding-left: 20px;
+       list-style: none;
+    
+   }
+
+   .li-direita {
+       text-align: right;
+       padding-left: 200px;
+       
+
+   }
+
+
+main p {
+    color: black;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
